@@ -1,0 +1,19 @@
+{
+    "name": "menyong-menying/php-mrequest",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MenyongMenying",
+            "email": "menyongmenying.main@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MenyongMenying\\MLibrary\\Kucil\\Http\\MRequest\\": "./src/"
+        }
+    },
+    "require": {
+        "menyong-menying/php-mdata": "dev-main"
+    }
+}

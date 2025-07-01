@@ -1,0 +1,92 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f6be8f0f16f961443830338b6caa5305",
+    "packages": [
+        {
+            "name": "menyong-menying/php-mdata",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-mdata.git",
+                "reference": "78376d2c33c552fbdc11e8a6a293132aabe34be8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-mdata/zipball/78376d2c33c552fbdc11e8a6a293132aabe34be8",
+                "reference": "78376d2c33c552fbdc11e8a6a293132aabe34be8",
+                "shasum": ""
+            },
+            "require": {
+                "menyong-menying/php-mstring": "dev-main"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Utilities\\MData\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-mdata/issues",
+                "source": "https://github.com/MenyongMenying/php-mdata/tree/main"
+            },
+            "time": "2025-06-30T10:48:45+00:00"
+        },
+        {
+            "name": "menyong-menying/php-mstring",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-mstring.git",
+                "reference": "f880a930245e6f1cd908c72db4d5fb68e7938cb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-mstring/zipball/f880a930245e6f1cd908c72db4d5fb68e7938cb4",
+                "reference": "f880a930245e6f1cd908c72db4d5fb68e7938cb4",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Utilities\\MString\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-mstring/issues",
+                "source": "https://github.com/MenyongMenying/php-mstring/tree/main"
+            },
+            "time": "2025-06-30T14:58:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "menyong-menying/php-mdata": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
